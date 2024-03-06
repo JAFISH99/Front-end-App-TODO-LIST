@@ -1,0 +1,34 @@
+/* App.css */
+.app {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 10px;
+  display:flex;
+}
